@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { WiDirectionRight } from 'react-icons/wi';
 
 const FeaturesSection = () => {
