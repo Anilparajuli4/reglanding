@@ -2,7 +2,7 @@
 
 const ReferralProgram = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 pt-20">
+    <div className="flex flex-col items-center justify-center min-h-screen  pt-20">
       <div className="bg-white shadow-md rounded-md p-6 w-full max-w-lg">
         <h1 className="text-2xl font-bold text-center text-gray-900 ">
           Join the Regaarder Referral Program

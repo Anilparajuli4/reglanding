@@ -8,20 +8,20 @@ const PricingCard= () => {
       
       <div className="flex justify-between space-x-6">
         {/* VIP Access Card */}
-        <div className="flex-1 border border-purple-300 rounded-lg p-6 relative">
+        <div className="flex-1 border border-purple-300 rounded-lg py-10 px-8 relative">
           <div className="mb-4">
-            <span className="bg-purple-100 text-purple-600 text-xs font-semibold py-1 px-3 rounded-full">MOST POPULAR</span>
+            <span className="bg-purple-100 text-secondary_color text-xs font-semibold py-1 px-3 rounded-full">MOST POPULAR</span>
           </div>
           <h2 className="text-xl font-bold mb-2">Vip Access</h2>
           <p className="text-sm text-gray-600 mb-4">Reserved for the first 1,000 users.</p>
           <p className="text-3xl font-bold mb-4">$1<span className="text-sm font-normal">/One Time Only</span></p>
-          <button className="w-full bg-purple-500 text-white py-2 rounded-lg mb-6">Sign Up Now</button>
+          <button className="w-full bg-secondary_color text-white py-2 rounded-lg mb-6">Sign Up Now</button>
           
           <h3 className="font-semibold mb-2">What's included:</h3>
           <ul className="space-y-2 mb-16">
             {['Priority Access', 'Exclusive Content', 'Up to 10% Off', 'Personalized Onboarding', 'Direct Feedback Channel', 'Crowdfunding Advantages'].map((item, index) => (
               <li key={index} className="flex items-center">
-                <svg className="w-5 h-5 mr-2 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 mr-2 text-secondary_color" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 {item}
@@ -37,17 +37,17 @@ const PricingCard= () => {
         </div>
         
         {/* Normal Sign-Up Card */}
-        <div className="flex-1 border border-gray-200 relative rounded-lg p-6">
+        <div className="flex-1 border border-gray-200 relative rounded-lg py-10 px-8">
           <h2 className="text-xl font-bold mb-2">Normal Sign-Up</h2>
           <p className="text-sm text-gray-600 mb-4">Join the Regaarder community</p>
           <p className="text-3xl font-bold mb-4">$0</p>
-          <button className="w-full bg-white text-purple-500 border border-purple-500 py-2 rounded-lg mb-6">Sign Up Now</button>
+          <button className="w-full bg-white text-secondary_color border border-secondary_color py-2 rounded-lg mb-6">Sign Up Now</button>
           
           <h3 className="font-semibold mb-2">What's included:</h3>
           <ul className="space-y-2">
             {['Personalized Content Curation', 'Access to Revolutionary Features', 'Crowdfunding Updates', 'Earn Customizable Gifts'].map((item, index) => (
               <li key={index} className="flex items-center">
-                <svg className="w-5 h-5 mr-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 mr-2 text-secondary_color" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 {item}

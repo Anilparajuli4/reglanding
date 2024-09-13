@@ -8,7 +8,7 @@ function Header() {
                   <h1>logo</h1>
               </div>
               <div>
-                  <ul className='flex font-bold text-sm gap-4'>
+                  <ul className='flex font-bold text-sm gap-7'>
                       <li>Demos</li>
                       <li>Pages</li>
                       <li>Support</li>

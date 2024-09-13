@@ -9,8 +9,8 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ color, title, description, imageUrl }) => (
   <div className={`bg-${color}-500 rounded-lg p-6 flex flex-col items-center text-center text-white`}>
-    <div className="w-24 h-24 mb-4 flex items-center justify-center">
-      <img src={imageUrl} alt={title} className="w-full h-full object-contain" />
+    <div className="w-24 h-28 mb-4 flex items-center justify-center">
+      <img src={imageUrl} alt={title} className="w-full h-28 object-contain" />
     </div>
     <h2 className="text-xl font-semibold mb-2">{title}</h2>
     <p className="text-sm">{description}</p>

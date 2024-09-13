@@ -2,7 +2,7 @@
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex  flex-col items-center justify-center py-52 px-8 bg-gray-50">
+    <div className="flex  flex-col items-center justify-center py-52 px-8 ">
       <h2 className="text-4xl tracking-tight font-bold text-gray-800 mb-4 text-center">
         Why you should choose Regaarder?
       </h2>

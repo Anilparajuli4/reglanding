@@ -1,5 +1,8 @@
 
-// import { Twitter, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -11,12 +14,12 @@ const Footer = () => {
             With lots of unique blocks, you can easily build a page without coding.
             Build your next landing page.
           </p>
-          {/* <div className="flex space-x-4">
-            <Twitter className="text-gray-400 hover:text-gray-600" />
-            <Facebook className="text-gray-400 hover:text-gray-600" />
-            <Instagram className="text-gray-400 hover:text-gray-600" />
-            <Linkedin className="text-gray-400 hover:text-gray-600" />
-          </div> */}
+          <div className="flex space-x-4">
+            <FaXTwitter className="text-gray-400 hover:text-gray-600" />
+            <FaFacebook className="text-gray-400 hover:text-gray-600" />
+            <FaInstagram className="text-gray-400 hover:text-gray-600" />
+            <FaLinkedin className="text-gray-400 hover:text-gray-600" />
+          </div>
         </div>
 
         {/* Company column */}
