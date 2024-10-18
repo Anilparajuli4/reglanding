@@ -1,4 +1,4 @@
-'use client'
+
 
 import { useEffect, useState } from "react";
 import CountdownTimer, { TimeLeft } from "./CountDownTimer";
@@ -33,7 +33,7 @@ const VIPCountdownComponent: React.FC = () => {
     }, []);
   
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center mt-20">
+      <div className="max-w-2xl mx-auto p-8 text-center mt-24">
         <h1 className="text-4xl font-bold mb-4">Hurry Up!</h1>
         <p className="text-gray-600 mb-6">
           Only 1,000 VIP spots available! Secure your place and start enjoying these exclusive benefits now.

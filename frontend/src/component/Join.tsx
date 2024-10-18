@@ -1,19 +1,18 @@
-import { WiDirectionRight } from "react-icons/wi"
+
 
 
 function Join() {
   return (
-    <div className="bg-secondary_color py-8 ">
-        <div className="max-w-5xl flex mx-auto justify-between items-center">
-            <div className="space-y-3">
-                <h2 className="text-3xl font-bold text-white">Join Revolution Now</h2>
-                <p className="text-gray-300 text-sm">With lots of unique blocks, you can easily build a page without <br/> coding. Build your next landing page</p>
-            </div>
-            <div className="">
-               <button className="bg-white rounded py-2 px-10 font-bold text-sm flex gap-2 items-center justify-center">Get Started <span><WiDirectionRight size={35}/></span></button>
-            </div>
-        </div>
+  <div className="flex justify-between max-w-7xl mx-auto mt-24">
+    <div className="space-y-5">
+      <h1 className="text-3xl font-bold">Join These Thrilled Users</h1>
+      <p className="max-w-xl">Don’t Miss Out—Help Us Build Something Special!  
+      Receive exclusive access to our beta version and play a key role in shaping the future of Regaarder.</p>
     </div>
+    <div>
+      <button className="py-3 bg-[#DF68FD] px-3 text-white rounded-md">Apply for Beta Access Now</button>
+    </div>
+  </div>
   )
 }
 

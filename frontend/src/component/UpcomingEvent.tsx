@@ -70,7 +70,7 @@ const UpcomingEvents: React.FC = () => {
   ];
 
   return (
-    <div className="max-w-3xl mx-auto p-8 ">
+    <div className="max-w-3xl mx-auto p-8 mt-16">
       <h2 className="text-3xl font-bold text-center mb-4 mt-24">What's Coming Up?</h2>
       <p className="text-center text-gray-600 mb-12">
         With lots of unique blocks, you can easily build a page without any coding.

@@ -2,20 +2,20 @@
 
 const PricingCard= () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 font-sans">
+    <div className="max-w-4xl mx-auto p-6 font-sans mt-24">
       <h1 className="text-3xl font-bold text-center mb-2">Elevate Your Experience: Become a VIP Member</h1>
       <p className="text-center text-gray-600 mb-8">Unlock extraordinary benefits for just $1—one-time only! Act fast, this offer won't last long.</p>
       
-      <div className="flex justify-between space-x-6">
+      <div className="flex justify-between space-x-6 mt-7">
         {/* VIP Access Card */}
-        <div className="flex-1 border border-purple-300 rounded-lg py-10 px-8 relative">
+        <div className="flex-1 border border-[#9E3DFF] rounded-lg py-12 px-8 relative">
           <div className="mb-4">
-            <span className="bg-purple-100 text-secondary_color text-xs font-semibold py-1 px-3 rounded-full">MOST POPULAR</span>
+            <span className="bg-purple-100 text-black text-xs  border-2 border-[#DF68FD] font-semibold py-1 px-3 rounded-full">MOST POPULAR</span>
           </div>
           <h2 className="text-xl font-bold mb-2">Vip Access</h2>
           <p className="text-sm text-gray-600 mb-4">Reserved for the first 1,000 users.</p>
-          <p className="text-3xl font-bold mb-4">$1<span className="text-sm font-normal">/One Time Only</span></p>
-          <button className="w-full bg-secondary_color text-white py-2 rounded-lg mb-6">Sign Up Now</button>
+          <p className="text-3xl font-semibold mb-4">$1<span className="text-sm font-normal">/One Time Only</span></p>
+          <button className=" bg-[#DF68FD] px-5 text-white py-2 rounded-lg mb-6">Sign Up Now</button>
           
           <h3 className="font-semibold mb-2">What's included:</h3>
           <ul className="space-y-2 mb-16">
@@ -37,11 +37,11 @@ const PricingCard= () => {
         </div>
         
         {/* Normal Sign-Up Card */}
-        <div className="flex-1 border border-gray-200 relative rounded-lg py-10 px-8">
+        <div className="flex-1 border-2 border-[#E7E5F9] relative rounded-lg py-12 px-8">
           <h2 className="text-xl font-bold mb-2">Normal Sign-Up</h2>
           <p className="text-sm text-gray-600 mb-4">Join the Regaarder community</p>
-          <p className="text-3xl font-bold mb-4">$0</p>
-          <button className="w-full bg-white text-secondary_color border border-secondary_color py-2 rounded-lg mb-6">Sign Up Now</button>
+          <p className="text-3xl font-semibold mb-4">$0</p>
+          <button className="px-5 bg-white text-secondary_color border border-secondary_color py-2 rounded-lg mb-6">Sign Up Now</button>
           
           <h3 className="font-semibold mb-2">What's included:</h3>
           <ul className="space-y-2">

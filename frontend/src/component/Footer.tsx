@@ -1,72 +1,56 @@
 
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { Eye, Twitter, Github, Instagram, MessageCircle, PlusSquare } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12 px-4 md:px-8 mt-28">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-        {/* Left column */}
-        <div className="md:col-span-2">
-          <p className="text-gray-600 mb-4">
-            With lots of unique blocks, you can easily build a page without coding.
-            Build your next landing page.
-          </p>
-          <div className="flex space-x-4">
-            <FaXTwitter className="text-gray-400 hover:text-gray-600" />
-            <FaFacebook className="text-gray-400 hover:text-gray-600" />
-            <FaInstagram className="text-gray-400 hover:text-gray-600" />
-            <FaLinkedin className="text-gray-400 hover:text-gray-600" />
-          </div>
+    <div className="container flex justify-between max-w-6xl mx-auto px-4 py-8 mt-24">
+        <div className='flex flex-col justify-between'>
+        <div className="flex items-center mb-4 md:mb-0">
+          <img className='h-9' src='/images/logo.png' />
+          <h1 className="text-2xl font-bold">Regaarder</h1>
         </div>
+       
+        <nav className="flex space-x-4">
+          <Twitter className="w-5 h-5" />
+          <Github className="w-5 h-5" />
+          <Instagram className="w-5 h-5" />
+          <MessageCircle className="w-5 h-5" />
+          <PlusSquare className="w-5 h-5" />
+        </nav>
+        <p className="text-green-500 mb-2 md:mb-0">• All systems normal</p>
+        </div>
+      
+     
+    
 
-        {/* Company column */}
-        <div>
-          <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
+     
+        <div className=''>
+          <h2 className="text-xl font-semibold mb-4">Services</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">About us</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Contact us</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Careers</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Press</a></li>
+            <li>On-Demand Video Creation</li>
+            <li>Direct Sponsorship Opportunities</li>
+            <li>Crowdsourced Content Creation</li>
+            <li>Interactive Content Engagement</li>
+            <li>Creator Monetization Support</li>
           </ul>
+          <p className='mt-16'>© 2024 Regaarder, Inc.</p>
         </div>
-
-        {/* Product column */}
-        <div>
-          <h3 className="font-semibold text-gray-900 mb-3">Product</h3>
+        <div className=''>
+          <h2 className="text-xl font-semibold mb-4">Products</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Features</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Pricing</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">News</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Help desk</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-gray-900">Support</a></li>
+            <li>Smart Auto Editor</li>
+            <li>AI-Powered Smart Editor</li>
+            <li>Audio Live Proofreader</li>
+            <li>Customizable Video Player</li>
+            <li>Multilingual Voice Translation</li>
           </ul>
+          <div className="flex space-x-4 mt-16">
+          <MessageCircle className="w-5 h-5" />
+          <PlusSquare className="w-5 h-5" />
+          <Eye className="w-5 h-5" />
+        </div> 
         </div>
-
-        {/* Services and Legal columns */}
-        <div className="grid grid-cols-2 gap-8">
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-3">Services</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Digital Marketing</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Content Writing</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">SEO for Business</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">UI Design</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-3">Legal</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Terms & Conditions</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Return Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </div>
   );
 };
 

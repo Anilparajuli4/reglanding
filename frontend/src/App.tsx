@@ -1,17 +1,21 @@
 import Board from "./component/Board"
 import CreatorDashboard from "./component/CreateorDashboard"
 import Customer from "./component/Customer"
+import EmailSignup from "./component/EmailSignUp"
 import FeaturesSection from "./component/FeatureSection"
 import Footer from "./component/Footer"
 import Header from "./component/Header"
 import HeroSection from "./component/HeroSection"
 import Join from "./component/Join"
+import MissionComponent from "./component/MissonComponent"
 import PricingCard from "./component/PricingCard"
 import ReferralProgram from "./component/RefferalProgram"
 import Review from "./component/Review"
+import TopSection from "./component/TopSection/TopSection"
 import UpcomingEvents from "./component/UpcomingEvent"
 import Update from "./component/Update"
 import VIPCountdownComponent from "./component/VIPCountDown"
+import Vision from "./component/Vision"
 import WhyChooseUs from "./component/WhyChooseUs"
 
 
@@ -19,23 +23,34 @@ function App() {
   return (
     <div >
          <div>
-      <Header/>
-      <HeroSection/>
-      <Board/>
-      <Customer/>
-      <WhyChooseUs/>
-      <Join/>
+      {/* <Header/> */}
+      <TopSection/>
       <ReferralProgram/>
-      {/* <IdeaSubmissionForm /> */}
-    
       <FeaturesSection/>
-      {/* <PricingCard/> */}
       <PricingCard/>
       <VIPCountdownComponent/>
       <UpcomingEvents />
-      <CreatorDashboard/>
       <Review/>
-      <Update/>
+      <Join/>
+      {/* <HeroSection/> */}
+      {/* <Board/> */}
+      {/* <Customer/>
+      <WhyChooseUs/>
+      
+      <Update/> */}
+     
+      
+      {/* <IdeaSubmissionForm /> */}
+    
+     
+      {/* <PricingCard/> */}
+      
+ 
+     
+      {/* <CreatorDashboard/> */}
+      <MissionComponent/>
+      <Vision />
+      <EmailSignup/>
       <Footer/>
     </div>
     </div>
