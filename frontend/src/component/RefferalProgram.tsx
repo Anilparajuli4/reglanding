@@ -2,26 +2,26 @@
 
 const ReferralProgram = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen  mt-56">
+    <div className="flex flex-col items-center justify-center min-h-screen px-10  mt-56">
        <div>
-        <h1 className="text-3xl font-bold text-center text-[#161C2D] ">
+        <h1 className="md:text-3xl text-[14px] font-bold text-center text-[#161C2D] ">
         Turn Friends into Rewards with Regaarder!
         </h1>
-        <p className="text-center text-[#000] mt-2 mb-8">
+        <p className="text-center text-[#000] md:text-[16px] text-[7px] mt-2 mb-8">
         Become an Ambassador and earn fantastic rewards for every friend you invite
         </p>
         </div>
         <div className="bg-white shadow-sm rounded-md p-6 w-full max-w-xl">
-        <div className="bg-[#000] text-white text-center p-4 mt-4 rounded-md space-x-4 ">
-          <p className=" text-xl font-medium  uppercase inline">Hurry up to refer</p>
-          <p className="text-sm font-bold tracking-wide inline">
+        <div className="bg-[#000] text-white text-center p-4 mt-4  rounded-md space-x-4 ">
+          <p className=" md:text-xl text-[10px] font-medium  uppercase inline">Hurry up to refer</p>
+          <p className="md:text-sm text-[6px] font-bold tracking-wide inline">
             ONLY  5  d  01  h  08  m  59  s  LEFT
           </p>
         </div>
 
         <div className="mt-6">
-          <p className='text-center mb-5'>Invite your friends to Regaarder, and for every successful referral, you can earn up to $50 in credits and other bonuses.</p>
-          <h2 className="text-lg font-bold text-center text-gray-900 ">Spread the world</h2>
+          <p className='text-center mb-5 text-[7px] md:text-[16px]'>Invite your friends to Regaarder, and for every successful referral, you can earn up to $50 in credits and other bonuses.</p>
+          <h2 className="md:text-lg text-[10px] font-bold text-center text-gray-900 ">Spread the world</h2>
           <ul className="mt-7 space-y-5">
             <li className="flex items-center">
               <span className="mr-3 border border-[#323232] rounded-full p-1">
@@ -36,7 +36,7 @@ const ReferralProgram = () => {
 </defs>
   </svg>
               </span>
-              <span className='font-semibold'>
+              <span className='md:font-semibold text-[7px]'>
               Share Regaarder with creators and users to earn rewards.
               </span>
              
@@ -50,7 +50,7 @@ const ReferralProgram = () => {
                </svg>
 
               </span>
-              <span className='font-semibold'>
+              <span className='md:font-semibold text-[7px]'>
               Earn $50 when your referred creator reaches Tier 3 monetization.
               </span>
              
@@ -64,7 +64,7 @@ const ReferralProgram = () => {
                </svg>
   
               </span>
-              <span className='font-semibold'>
+              <span className='md:font-semibold text-[7px]'>
               Get 10% of their ad revenue for the first 3 months.
               </span>
              
@@ -79,7 +79,7 @@ const ReferralProgram = () => {
  
   
               </span>
-              <span className='font-semibold'>
+              <span className='md:font-semibold text-[7px]'>
               Earn $25 credit for each verified user or referrer.
               </span>
              
@@ -94,7 +94,7 @@ const ReferralProgram = () => {
 
   
               </span>
-              <span className='font-semibold'>
+              <span className='md:font-semibold text-[7px]'>
               Track progress and milestones through the Referral Dashboard.
               </span>
              
@@ -114,8 +114,8 @@ const ReferralProgram = () => {
             className="w-full p-3 border border-gray-300 rounded-md mb-4"
           />
           <div className="flex items-center">
-            <input type="checkbox" id="terms" className="mr-2" />
-            <label htmlFor="terms" className="text-gray-700 text-sm">
+            <input type="checkbox" id="terms" className="mr-2 md:text-[16px] text-[7px]" />
+            <label htmlFor="terms" className="text-gray-700 md:text-sm text-[7px]">
               I agree to <a href="#" className="text-black font-bold underline">Term & Conditions</a>
             </label>
           </div>
@@ -132,3 +132,6 @@ const ReferralProgram = () => {
 };
 
 export default ReferralProgram;
+
+
+
