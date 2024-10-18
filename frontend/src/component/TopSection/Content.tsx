@@ -2,9 +2,9 @@
 
 function Content() {
   return (
-    <div className="text-[#fff] mt-6 py-6 ">
+    <div className="text-[#fff] md:mt-6  py-6 max-w-full">
         <div className="flex flex-col items-center">
-            <div className="p-6 px-16 flex   flex-col gap-y-4">
+            <div className="p-6 px-4 md:px-16 flex   flex-col gap-y-4">
                 <p className="md:text-7xl text-lg font-semibold text-center">Demand the Content You Crave <br/><span className="text-[#CAAFDE] inline-block mt-2">– Watch What You Want, When You Want.</span></p>
                 <p className="text-[#666] text-[8px] md:text-[16px] text-center">Because Your Time Deserves Content That Speaks to You, From a Platform That Delivers.</p>
             </div>

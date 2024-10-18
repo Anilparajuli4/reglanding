@@ -2,7 +2,7 @@
 
 const ReferralProgram = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-10  mt-56">
+    <div className="flex flex-col items-center justify-center min-h-screen px-10  md:mt-56 mt-2">
        <div>
         <h1 className="md:text-3xl text-[14px] font-bold text-center text-[#161C2D] ">
         Turn Friends into Rewards with Regaarder!
@@ -11,8 +11,8 @@ const ReferralProgram = () => {
         Become an Ambassador and earn fantastic rewards for every friend you invite
         </p>
         </div>
-        <div className="bg-white shadow-sm rounded-md p-6 w-full max-w-xl">
-        <div className="bg-[#000] text-white text-center p-4 mt-4  rounded-md space-x-4 ">
+        <div className="bg-white shadow-sm rounded-md md:p-6 p-4 w-full max-w-xl">
+        <div className="bg-[#000] text-white text-center p-4 md:mt-4 mt-1 rounded-md space-x-4 ">
           <p className=" md:text-xl text-[10px] font-medium  uppercase inline">Hurry up to refer</p>
           <p className="md:text-sm text-[6px] font-bold tracking-wide inline">
             ONLY  5  d  01  h  08  m  59  s  LEFT

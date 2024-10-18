@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-screen ">
         <div className="flex justify-between text-[#fff] md:p-5 py-5 ">
         <div className="flex items-center mb-4 md:mb-0">
           <img className='h-9' src='/images/logo.png' />

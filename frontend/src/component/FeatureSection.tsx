@@ -3,11 +3,11 @@ import { WiDirectionRight } from 'react-icons/wi';
 
 const FeaturesSection = () => {
   return (
-    <div className="flex mt-24 flex-col items-center sm:mt-28  justify-center min-h-screen bg-gray-50 py-16">
-      <h1 className="text-3xl font-bold text-center text-gray-900 w-96">
+    <div className="flex md:mt-24 mt-5 flex-col items-center sm:mt-28  justify-center min-h-screen bg-gray-50 py-16">
+      <h1 className="md:text-3xl text-lg font-bold text-center text-gray-900 w-96">
         Explore Regaarder’s Revolutionary Features
       </h1>
-      <div className='rounded-full px-5 py-2 bg-red-100 flex items-center justify-center mt-20 mb-6'>
+      <div className='rounded-full px-5 py-2 bg-red-100 flex items-center justify-center mt-10 md:mt-20 mb-6'>
       <p className="text-center text-red-500  text-sm uppercase tracking-widest">
         for viewers
       </p> 
@@ -18,7 +18,7 @@ const FeaturesSection = () => {
      
 
         {/* Power to Influence */}
-        <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-red-100 p-4 rounded-full flex items-center justify-center">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Microphone">
@@ -28,7 +28,7 @@ const FeaturesSection = () => {
 
           </div>
           <div className='text-[#161C2D]'>
-            <h3 className="text-xl font-semibold text-[#161C2D]">Audio Translating</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold text-[#161C2D]">Audio Translating</h3>
             <p className="mt-2 text-gray-500">
             Translate your voice into multiple languages while keeping your tone. Connect globally with ease!
             </p>
@@ -36,7 +36,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Request Your Dream Content */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-green-100 p-4 rounded-full flex items-center justify-center">
           <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
            <g id="Video">
@@ -46,7 +46,7 @@ const FeaturesSection = () => {
 
           </div>
           <div className='text-[#161C2D]'>
-            <h3 className="text-xl font-semibold ">Tailored Video Experience</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold ">Tailored Video Experience</h3>
             <p className="mt-2">
             Discover content curated just for you, with the ability to schedule your favorite videos at your preferred times
             </p>
@@ -54,7 +54,7 @@ const FeaturesSection = () => {
         </div>
 
 
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-purple-100 p-4 rounded-full flex items-center justify-center">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Lightning">
@@ -64,7 +64,7 @@ const FeaturesSection = () => {
 
           </div>
           <div className='text-[#161C2D]'>
-            <h3 className="text-xl font-semibold ">Power to Influence</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold ">Power to Influence</h3>
             <p className="mt-2 ">
             Vote in exciting contests and help shape the content that rises to the top.
             </p>
@@ -73,7 +73,7 @@ const FeaturesSection = () => {
 
       
          {/* Request Your Dream Content */}
-         <div className="flex items-center space-x-4">
+         <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-green-100 p-4 rounded-full flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ const FeaturesSection = () => {
             </svg>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-900">Request Your Dream Content</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold text-gray-900">Request Your Dream Content</h3>
             <p className="mt-2 text-gray-500">
               Have a specific video idea? Request it, and see it come to life on Regaarder.
             </p>
@@ -99,7 +99,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Engaged Community */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-gray-100 p-4 rounded-full flex items-center justify-center">
           <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="Alarm">
@@ -110,14 +110,14 @@ const FeaturesSection = () => {
 
           </div>
           <div className='text-[#161C2D]'>
-            <h3 className="text-xl font-semibold ">Flexible Content Scheduling</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold ">Flexible Content Scheduling</h3>
             <p className="mt-2 ">
             Set your preferred viewing times and never miss a moment of your favorite content.  
             </p>
           </div>
         </div>
           {/* Power to Influence */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 md:text-[16px] text-[7px]">
           <div className="bg-red-100 p-4 rounded-full flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +135,7 @@ const FeaturesSection = () => {
             </svg>
           </div>
           <div className='text-[#161C2D]'>
-            <h3 className="text-xl font-semibold ">Engaged Community</h3>
+            <h3 className="md:text-xl text-[9px] font-semibold ">Engaged Community</h3>
             <p className="mt-2 ">
             Dive into interactive features like comment awards and explore content that matches your interests..
             </p>
