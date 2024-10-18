@@ -4,7 +4,7 @@ import Header from "./Header"
 
 function TopSection() {
   return (
-    <div className="bg-[#000000] max-w-full">
+    <div className="bg-[#000000]  ">
         <Header/>
         <Content/>
     </div>

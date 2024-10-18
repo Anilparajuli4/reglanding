@@ -18,8 +18,8 @@ import Vision from "./component/Vision"
 
 function App() {
   return (
-    <div >
-         <div>
+    <div className="overflow-x-hidden">
+         <div className="">
       {/* <Header/> */}
       <TopSection/>
       <ReferralProgram/>

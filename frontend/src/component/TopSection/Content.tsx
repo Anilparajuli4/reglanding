@@ -2,7 +2,7 @@
 
 function Content() {
   return (
-    <div className="text-[#fff] md:mt-6  py-6 max-w-full">
+    <div className="text-[#fff] md:mt-6  py-6 sm:px-4 overflow-x-hidden">
         <div className="flex flex-col items-center">
             <div className="p-6 px-4 md:px-16 flex   flex-col gap-y-4">
                 <p className="md:text-7xl text-lg font-semibold text-center">Demand the Content You Crave <br/><span className="text-[#CAAFDE] inline-block mt-2">– Watch What You Want, When You Want.</span></p>
