@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import  React, { useState } from 'react';
 
 const EmailSignup = () => {
   const [email, setEmail] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     // Here you would typically handle the form submission
     console.log('Email submitted:', email);

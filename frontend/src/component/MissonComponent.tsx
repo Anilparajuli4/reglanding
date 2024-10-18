@@ -1,5 +1,10 @@
-import React from 'react';
+
 import { Eye, CheckCircle } from 'lucide-react';
+
+interface FeatureItemProps {
+  color: string;
+  text: string;
+}
 
 const MissionComponent = () => {
   return (
@@ -37,7 +42,7 @@ const MissionComponent = () => {
   );
 };
 
-const FeatureItem = ({ color, text }) => {
+const FeatureItem = ({ color, text }: FeatureItemProps) => {
   return (
     <div className="flex items-center space-x-4">
       <div className={`bg-${color}-100 p-2 rounded-lg w-full h-14 flex items-center`}>
