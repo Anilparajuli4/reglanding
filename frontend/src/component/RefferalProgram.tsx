@@ -2,17 +2,17 @@
 
 const ReferralProgram = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-10  md:mt-56 mt-2">
+    <div className="flex flex-col items-center justify-center min-h-screen px-10  md:mt-56 mt-8">
        <div>
-        <h1 className="md:text-3xl text-[15px] font-bold text-center text-[#161C2D] ">
+        <h1 className="md:text-3xl text-[14px] font-bold text-center text-[#161C2D] ">
         Turn Friends into Rewards with Regaarder!
         </h1>
-        <p className="text-center text-[#000] md:text-[16px] text-[8px] mt-2 mb-8">
+        <p className="text-center text-[#000] md:text-[16px] text-[8px] mt-2 md:mb-8 mb-3">
         Become an Ambassador and earn fantastic rewards for every friend you invite
         </p>
         </div>
         <div className="bg-white shadow-sm rounded-md md:p-6 p-4 w-full max-w-xl">
-        <div className="bg-[#000] text-white text-center p-4 md:mt-4 mt-1 rounded-md space-x-4 ">
+        <div className="bg-[#000] text-white text-center px-3 py-2 md:p-4 md:mt-4 mt-1 rounded-md space-x-4 ">
           <p className=" md:text-xl text-[10px] font-medium  uppercase inline">Hurry up to refer</p>
           <p className="md:text-sm text-[6px] font-bold tracking-wide inline">
             ONLY  5  d  01  h  08  m  59  s  LEFT
@@ -121,7 +121,7 @@ const ReferralProgram = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-secondary_color text-white p-4 rounded-md mt-8 hover:bg-purple-600"
+            className="w-full bg-[#C84BF4] text-white md:p-4 p-3 text-[13px] md:text-[12px] rounded-md mt-8 hover:bg-purple-600"
           >
             Start referring now
           </button>

@@ -3,14 +3,14 @@ import { Eye, Twitter, Github, Instagram, MessageCircle, PlusSquare } from 'luci
 
 const Footer = () => {
   return (
-    <div className="container flex justify-between max-w-6xl mx-auto md:px-4 px-2 md:py-8 py-4 mt-24">
+    <div className="container flex justify-between max-w-6xl mx-auto md:px-4 px-2 md:py-8 py-4 mt-16 md:mt-24">
         <div className='flex flex-col justify-between'>
         <div className="flex items-center mb-4 md:mb-0">
           <img className='md:h-9 h-4' src='/images/logo.png' />
-          <h1 className="md:text-2xl textp-lg font-bold">Regaarder</h1>
+          <h1 className="md:text-2xl text-[12px] font-bold">Regaarder</h1>
         </div>
        
-        <nav className="flex space-x-4">
+        <nav className="flex md:space-x-4 space-x-2">
           <Twitter className="md:w-5 w-3 md:h-5 h-3" />
           <Github className="md:w-5 w-3 md:h-5 h-3" />
           <Instagram className="md:w-5 w-3 md:h-5 h-3" />
