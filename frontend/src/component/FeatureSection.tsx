@@ -3,7 +3,7 @@ import { WiDirectionRight } from 'react-icons/wi';
 
 const FeaturesSection = () => {
   return (
-    <div className="flex md:mt-24 mt-5 flex-col items-center sm:mt-28  justify-center min-h-screen bg-gray-50 py-16">
+    <div className="flex md:mt-24 mt-5 flex-col items-center sm:mt-28  justify-center min-h-screen bg-gray-50 py-16 ">
       <h1 className="md:text-3xl text-[16px] font-bold text-center text-gray-900 w-96">
         Explore Regaarder’s Revolutionary Features
       </h1>

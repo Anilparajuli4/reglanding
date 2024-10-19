@@ -38,14 +38,15 @@ const PricingCard= () => {
         
         {/* Normal Sign-Up Card */}
         {/* md:flex-1 */}
-        <div className="flex-1 border-2  flex-col justify-between border-[#E7E5F9] relative flex rounded-lg py-24  md:px-8 px-8">
-        <div className="space-y-6">
+        <div className="flex-1 border flex-col justify-between border-[#E7E5F9] relative flex rounded-lg py-16 md:px-8 px-6">
+        <div className="space-y-6 h-[530px] w-[230px]">
           <h2 className="md:text-xl font-bold mb-2">Normal Sign-Up</h2>
           <p className="text-sm text-gray-600 mb-4">Join the Regaarder community</p>
           <p className="md:text-3xl text-lg font-semibold mb-4">$0</p>
           <button className="md:px-5 px-3 bg-white text-secondary_color border border-secondary_color md:py-2 py-1 md:text-[16px] text-[12px]  rounded-lg mb-6">Sign Up Now</button>
           
           <h3 className="font-semibold text-[13px] md:text-[16px]  mb-2">What's included:</h3>
+          
           <ul className="space-y-2 ">
             {['Personalized Content Curation', 'Access to Revolutionary Features', 'Crowdfunding Updates', 'Earn Customizable Gifts'].map((item, index) => (
               <li key={index} className="flex items-center">
@@ -56,14 +57,17 @@ const PricingCard= () => {
               </li>
             ))}
           </ul>
-          </div>
-          
-          <div className="md:mt-6 mt-24 absolute bottom-0 left-0  right-0 bg-gray-100 p-3 rounded-lg">
+          <div className="md:mt-6 mt-24  absolute bottom-0 left-0  right-0 bg-gray-100 p-3 rounded-lg">
             <p className="text-sm text-gray-600">
               <span className="font-semibold">Bonus:</span> Every friend you invite who signs up and contributes will bring you closer to unlocking more perks and exclusive content
             </p>
           </div>
+        
+          </div>
+          
+         
         </div>
+        
       </div>
     </div>
   );

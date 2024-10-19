@@ -17,7 +17,7 @@ const Footer = () => {
           <MessageCircle className="md:w-5 w-3 md:h-5 h-3" />
           <PlusSquare className="md:w-5 w-3 md:h-5 h-3" />
         </nav>
-        <p className="text-green-500 mb-2 md:mb-0 md:text-[16px] text-[8px]">• All systems normal</p>
+        <p className="text-green-500  md:mb-0 md:text-[16px] text-[8px]">• All systems normal</p>
         </div>
       
      
