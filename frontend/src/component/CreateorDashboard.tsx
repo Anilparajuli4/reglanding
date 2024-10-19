@@ -40,14 +40,16 @@ const CreatorDashboard: React.FC = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto p-6 mt-24">
-      <h1 className="text-3xl font-bold text-center mb-8">
+    <div className="max-w-6xl mx-auto  p-6 mt-24">
+      <div>
+      <h1 className="md:text-3xl text-lg font-bold text-center mb-8">
         Creators: Your Next Big Break Awaits
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {cards.map((card, index) => (
           <Card key={index} {...card} />
         ))}
+      </div>
       </div>
     </div>
   );
