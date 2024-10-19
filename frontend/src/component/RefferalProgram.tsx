@@ -4,10 +4,10 @@ const ReferralProgram = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-10  md:mt-56 mt-2">
        <div>
-        <h1 className="md:text-3xl text-[14px] font-bold text-center text-[#161C2D] ">
+        <h1 className="md:text-3xl text-[15px] font-bold text-center text-[#161C2D] ">
         Turn Friends into Rewards with Regaarder!
         </h1>
-        <p className="text-center text-[#000] md:text-[16px] text-[7px] mt-2 mb-8">
+        <p className="text-center text-[#000] md:text-[16px] text-[8px] mt-2 mb-8">
         Become an Ambassador and earn fantastic rewards for every friend you invite
         </p>
         </div>
@@ -20,8 +20,8 @@ const ReferralProgram = () => {
         </div>
 
         <div className="mt-6">
-          <p className='text-center mb-5 text-[7px] md:text-[16px]'>Invite your friends to Regaarder, and for every successful referral, you can earn up to $50 in credits and other bonuses.</p>
-          <h2 className="md:text-lg text-[10px] font-bold text-center text-gray-900 ">Spread the world</h2>
+          <p className='text-center mb-5 text-[8px] md:text-[16px]'>Invite your friends to Regaarder, and for every successful referral, you can earn up to $50 in credits and other bonuses.</p>
+          <h2 className="md:text-lg text-[11px] font-bold text-center text-gray-900 ">Spread the world</h2>
           <ul className="mt-7 space-y-5">
             <li className="flex items-center">
               <span className="mr-3 border border-[#323232] rounded-full p-1">
@@ -36,7 +36,7 @@ const ReferralProgram = () => {
 </defs>
   </svg>
               </span>
-              <span className='md:font-semibold text-[7px]'>
+              <span className='md:font-semibold text-[9px]'>
               Share Regaarder with creators and users to earn rewards.
               </span>
              
@@ -50,7 +50,7 @@ const ReferralProgram = () => {
                </svg>
 
               </span>
-              <span className='md:font-semibold text-[7px]'>
+              <span className='md:font-semibold text-[9px]'>
               Earn $50 when your referred creator reaches Tier 3 monetization.
               </span>
              
@@ -64,7 +64,7 @@ const ReferralProgram = () => {
                </svg>
   
               </span>
-              <span className='md:font-semibold text-[7px]'>
+              <span className='md:font-semibold text-[9px]'>
               Get 10% of their ad revenue for the first 3 months.
               </span>
              
@@ -79,7 +79,7 @@ const ReferralProgram = () => {
  
   
               </span>
-              <span className='md:font-semibold text-[7px]'>
+              <span className='md:font-semibold text-[9px]'>
               Earn $25 credit for each verified user or referrer.
               </span>
              
@@ -94,7 +94,7 @@ const ReferralProgram = () => {
 
   
               </span>
-              <span className='md:font-semibold text-[7px]'>
+              <span className='md:font-semibold text-[9px]'>
               Track progress and milestones through the Referral Dashboard.
               </span>
              
@@ -114,8 +114,8 @@ const ReferralProgram = () => {
             className="w-full p-3 border border-gray-300 rounded-md mb-4"
           />
           <div className="flex items-center">
-            <input type="checkbox" id="terms" className="mr-2 md:text-[16px] text-[7px]" />
-            <label htmlFor="terms" className="text-gray-700 md:text-sm text-[7px]">
+            <input type="checkbox" id="terms" className="mr-2 md:text-[16px] text-[9px]" />
+            <label htmlFor="terms" className="text-gray-700 md:text-sm text-[9px]">
               I agree to <a href="#" className="text-black font-bold underline">Term & Conditions</a>
             </label>
           </div>

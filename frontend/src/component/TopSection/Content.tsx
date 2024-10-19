@@ -3,13 +3,13 @@
 function Content() {
   return (
     <div className="text-[#fff] md:mt-6  py-6 sm:px-4 overflow-x-hidden">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center md:items-start">
             <div className="p-6 px-4 md:px-16 flex   flex-col gap-y-4">
                 <p className="md:text-7xl text-lg font-semibold text-center">Demand the Content You Crave <br/><span className="text-[#CAAFDE] inline-block mt-2">– Watch What You Want, When You Want.</span></p>
-                <p className="text-[#666] text-[8px] md:text-[16px] text-center">Because Your Time Deserves Content That Speaks to You, From a Platform That Delivers.</p>
+                <p className="text-[#666] text-[12px] md:text-[16px] text-center">Because Your Time Deserves Content That Speaks to You, From a Platform That Delivers.</p>
             </div>
-            <div className="px-16">
-                <button  className="py-3 px-3 font-semibold text-black rounded-xl bg-[#fff]">Get started for free</button>
+            <div className="md:px-16 ">
+                <button  className="py-2 px-3 md:py-3 font-semibold text-black rounded-xl text-[10px] md:text-[16px] bg-[#fff]">Get started for free</button>
             </div>
         </div>
         <div className="mt-20 px-16">

@@ -4,17 +4,17 @@ import { WiDirectionRight } from 'react-icons/wi';
 const FeaturesSection = () => {
   return (
     <div className="flex md:mt-24 mt-5 flex-col items-center sm:mt-28  justify-center min-h-screen bg-gray-50 py-16">
-      <h1 className="md:text-3xl text-lg font-bold text-center text-gray-900 w-96">
+      <h1 className="md:text-3xl text-[16px] font-bold text-center text-gray-900 w-96">
         Explore Regaarder’s Revolutionary Features
       </h1>
-      <div className='rounded-full px-5 py-2 bg-red-100 flex items-center justify-center mt-10 md:mt-20 mb-6'>
+      <div className='rounded-full text-[12px] md:text-[16px] px-5 py-2 bg-red-100 flex items-center justify-center mt-10 md:mt-20 mb-6'>
       <p className="text-center text-red-500  text-sm uppercase tracking-widest">
         for viewers
       </p> 
       </div>
      
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-14 mt-12 max-w-5xl">
+      <div className="grid grid-cols-2 gap-14 mt-12 max-w-5xl">
      
 
         {/* Power to Influence */}

@@ -3,10 +3,10 @@
 const PricingCard= () => {
   return (
     <div className="max-w-4xl mx-auto p-6 font-sans mt-24">
-      <h1 className="text-3xl font-bold text-center mb-2">Elevate Your Experience: Become a VIP Member</h1>
-      <p className="text-center text-gray-600 mb-8">Unlock extraordinary benefits for just $1—one-time only! Act fast, this offer won't last long.</p>
+      <h1 className="md:text-3xl   font-bold text-center mb-2">Elevate Your Experience: Become a VIP Member</h1>
+      <p className="text-center text-[10px] md:text-lg text-gray-600 mb-8">Unlock extraordinary benefits for just $1—one-time only! Act fast, this offer won't last long.</p>
       
-      <div className="flex justify-between space-x-6 mt-7">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6 space-x-6 mt-7">
         {/* VIP Access Card */}
         <div className="flex-1 border border-[#9E3DFF] rounded-lg py-12 px-8 relative">
           <div className="mb-4">
@@ -37,7 +37,7 @@ const PricingCard= () => {
         </div>
         
         {/* Normal Sign-Up Card */}
-        <div className="flex-1 border-2 border-[#E7E5F9] relative rounded-lg py-12 px-8">
+        <div className="flex-1 border-2 border-[#E7E5F9] relative rounded-lg py-16 px-8">
           <h2 className="text-xl font-bold mb-2">Normal Sign-Up</h2>
           <p className="text-sm text-gray-600 mb-4">Join the Regaarder community</p>
           <p className="text-3xl font-semibold mb-4">$0</p>

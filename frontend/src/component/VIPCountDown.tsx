@@ -33,15 +33,15 @@ const VIPCountdownComponent: React.FC = () => {
     }, []);
   
     return (
-      <div className="max-w-2xl mx-auto p-8 text-center mt-24">
-        <h1 className="text-4xl font-bold mb-4">Hurry Up!</h1>
-        <p className="text-gray-600 mb-6">
+      <div className="md:max-w-2xl max-w-xl mx-auto p-8 text-center mt-24">
+        <h1 className="md:text-4xl text-2xl font-bold mb-4">Hurry Up!</h1>
+        <p className="text-gray-600 mb-6 text-[12px] md:[text-16px]">
           Only 1,000 VIP spots available! Secure your place and start enjoying these exclusive benefits now.
         </p>
         
         <CountdownTimer {...timeLeft} />
         
-        <button className="w-full bg-secondary_color text-white py-4 rounded-lg text-xl font-semibold hover:bg-purple-600 transition-colors">
+        <button className="w-full bg-secondary_color text-white md:py-4 py-3  rounded-lg md:text-xl text-lg font-semibold hover:bg-purple-600 transition-colors">
           Claim your VIP Status Now
         </button>
       </div>

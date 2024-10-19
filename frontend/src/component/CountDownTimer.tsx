@@ -14,8 +14,8 @@ export type TimeLeft = {
   
   const TimerBox: React.FC<TimerBoxProps> = ({ value, label }) => (
     <div className="flex flex-col items-center">
-      <div className="bg-gray-100 rounded-lg w-20 h-20 flex items-center justify-center mb-2">
-        <span className="text-4xl font-bold">{value.toString().padStart(2, '0')}</span>
+      <div className="bg-gray-100 rounded-lg md:w-20 w-16 md:h-20 h-16 flex items-center justify-center mb-2">
+        <span className="md:text-4xl text-2xl  font-bold">{value.toString().padStart(2, '0')}</span>
       </div>
       <span className="text-xs text-gray-600">{label}</span>
     </div>

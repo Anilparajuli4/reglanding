@@ -21,9 +21,9 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ number, title, descriptio
       ${number === 1 ? 'bg-red-500' : number === 2 ? 'bg-green-500' : 'bg-blue-500'}`}>
       {number}
     </div>
-    <h3 className="text-lg font-semibold mb-2 text-center">{title}</h3>
-    <p className="text-sm text-gray-600 text-center mb-1">{description}</p>
-    <p className="text-xs text-gray-500">{date}</p>
+    <h3 className="md:text-lg text-[10px] font-semibold mb-2 text-center">{title}</h3>
+    <p className="md:text-sm text-[8px] text-gray-600 text-center mb-1">{description}</p>
+    <p className="md:text-xs text-[6px] text-gray-500">{date}</p>
   </div>
 );
 
@@ -71,8 +71,8 @@ const UpcomingEvents: React.FC = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-8 mt-16">
-      <h2 className="text-3xl font-bold text-center mb-4 mt-24">What's Coming Up?</h2>
-      <p className="text-center text-gray-600 mb-12">
+      <h2 className="md:text-3xl text-xl font-bold text-center mb-4 mt-24">What's Coming Up?</h2>
+      <p className="text-center text-[12px] md:text-[16px] text-gray-600 mb-12">
         With lots of unique blocks, you can easily build a page without any coding.
       </p>
       <div className="flex justify-between items-start relative">
@@ -87,3 +87,7 @@ const UpcomingEvents: React.FC = () => {
 };
 
 export default UpcomingEvents;
+
+
+
+
