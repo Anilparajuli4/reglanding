@@ -42,7 +42,7 @@ function Content() {
     </div>
         </div>
         
-       <div className='flex flex-col md:mt-72 mt-40 relative items-center'>
+       <div className='flex flex-col md:mt-72 mt-24 relative items-center'>
         <div className="mt-20 px-16  absolute left-12 bottom-0 ">
             <img src='/images/studio.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
         </div>

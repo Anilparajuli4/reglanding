@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="container flex justify-between max-w-6xl mx-auto md:px-4 px-2 md:py-8 py-4 mt-16 md:mt-24">
         <div className='flex flex-col justify-between'>
-        <div className="flex items-center px-7 mb-4 md:mb-0 space-x-1">
-          <img className='h-7' src='/images/6.png' />
-          <h1 className="md:text-2xl text-xl font-bold">Regaarder</h1>
+        <div className="flex items-center  mb-4 md:mb-0 space-x-1">
+          <img className='md:h-7 h-4' src='/images/6.png' />
+          <h1 className="md:text-2xl text-lg font-bold">Regaarder</h1>
         </div>
         <nav className="flex md:space-x-4 space-x-2">
           <Twitter className="md:w-5 w-3 md:h-5 h-3" />

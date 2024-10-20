@@ -69,7 +69,7 @@ function Content() {
             <div className="space-y-4">
                
               <button
-                className={`w-full relative p-4 rounded-lg flex items-center bg-[#FFFFFF]`}
+                className={`w-full relative p-4 rounded-lg flex  items-center bg-[#FFFFFF]`}
                 onClick={() => setPreference('user')}
               >
                {preference === 'user' && (
@@ -97,9 +97,9 @@ function Content() {
 </svg>
                 </div>
                
-                <div className="text-left">
+                <div className="text-left md:text-[16px] text-[12px]">
                   <div className="font-semibold text-gray-500">User</div>
-                  <div className="text-sm text-gray-400">Watch videos and explore for fun</div>
+                  <div className="md:text-sm text-[10px] text-gray-400">Watch videos and explore for fun</div>
                 </div>
               </button>
               <button
@@ -138,9 +138,9 @@ function Content() {
 </svg>
                 </div>
              
-                <div className="text-left">
+                <div className="text-left  md:text-[16px] text-[12px]">
                   <div className="font-semibold text-gray-500">Creator</div>
-                  <div className="text-sm text-gray-400">Create content and earn</div>
+                  <div className="md:text-sm text-[10px] text-gray-400">Create content and earn</div>
                 </div>
               </button>
             </div>
