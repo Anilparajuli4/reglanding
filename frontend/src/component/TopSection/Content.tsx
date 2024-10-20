@@ -1,119 +1,6 @@
 
 
-// function Content() {
-//   return (
-//     <div className="text-[#fff] md:mt-6  py-6 sm:px-4 overflow-x-hidden">
-//         <div className="flex flex-col items-center md:items-start">
-//             <div className="p-6 px-4 md:px-16 flex   flex-col gap-y-4">
-//                 <p className="md:text-7xl text-lg font-semibold text-center">Demand the Content You Crave <br/><span className="text-[#CAAFDE] inline-block mt-2">– Watch What You Want, When You Want.</span></p>
-//                 <p className="text-[#666] text-[12px] md:text-[16px] text-center">Because Your Time Deserves Content That Speaks to You, From a Platform That Delivers.</p>
-//             </div>
-//             <div className="md:px-16 ">
-//                 <button  className="py-2 px-3 md:py-3 font-semibold text-black rounded-xl text-[10px] md:text-[16px] bg-[#fff]">Get started for free</button>
-//             </div>
-//         </div>
-//         <div className="mt-20 px-16 t">
-//             <img src='/images/user.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img"/>
-        
-//         </div>
-//         <div className="mt-20 px-16 relative">
-//             {/* <h2 className="absolute left-24 top-11 text-3xl font-bold">Request a Video</h2> */}
-//             <img src='/images/user2.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img"/>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Content
-
-
-
-
-// import React, { useState } from 'react';
-// import { X, Eye, PenTool } from 'lucide-react';
-
-// function Content() {
-//   const [showPopup, setShowPopup] = useState(false);
-//   const [preference, setPreference] = useState('');
-
-//   const togglePopup = () => setShowPopup(!showPopup);
-
-//   return (
-//     <div className="text-[#fff] md:mt-6 py-6 sm:px-4 overflow-x-hidden">
-//       <div className="flex flex-col items-center md:items-start">
-//         <div className="p-6 px-4 md:px-16 flex flex-col gap-y-4">
-//           <p className="md:text-7xl text-lg font-semibold text-center">
-//             Demand the Content You Crave <br/>
-//             <span className="text-[#CAAFDE] inline-block mt-2">
-//               – Watch What You Want, When You Want.
-//             </span>
-//           </p>
-//           <p className="text-[#666] text-[12px] md:text-[16px] text-center">
-//             Because Your Time Deserves Content That Speaks to You, From a Platform That Delivers.
-//           </p>
-//         </div>
-//         <div className="md:px-16">
-//           <button onClick={togglePopup} className="py-2 px-3 md:py-3 font-semibold text-black rounded-xl text-[10px] md:text-[16px] bg-[#fff]">
-//             Get started for free
-//           </button>
-//         </div>
-//       </div>
-//       <div className="mt-20 px-16">
-//         <img src='/images/user.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img"/>
-//       </div>
-//       <div className="mt-20 px-16 relative">
-//         <img src='/images/user2.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img"/>
-//       </div>
-
-//       {showPopup && (
-//         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-//           <div className="bg-gray-800 p-6 rounded-lg w-96 max-w-[90%]">
-//             <div className="flex justify-between items-center mb-4">
-//               <h3 className="text-xl font-semibold">Select Your Preference</h3>
-//               <button onClick={togglePopup} className="text-gray-400 hover:text-white">
-//                 <X size={24} />
-//               </button>
-//             </div>
-//             <p className="text-gray-400 mb-4">Select which describes you the best</p>
-//             <div className="space-y-4">
-//               <button
-//                 className={`w-full p-4 rounded-lg flex items-center ${
-//                   preference === 'user' ? 'bg-purple-600' : 'bg-gray-700'
-//                 }`}
-//                 onClick={() => setPreference('user')}
-//               >
-//                 <Eye className="mr-4" />
-//                 <div className="text-left">
-//                   <div className="font-semibold">User</div>
-//                   <div className="text-sm text-gray-400">Watch videos and explore for fun</div>
-//                 </div>
-//               </button>
-//               <button
-//                 className={`w-full p-4 rounded-lg flex items-center ${
-//                   preference === 'creator' ? 'bg-purple-600' : 'bg-gray-700'
-//                 }`}
-//                 onClick={() => setPreference('creator')}
-//               >
-//                 <PenTool className="mr-4" />
-//                 <div className="text-left">
-//                   <div className="font-semibold">Creator</div>
-//                   <div className="text-sm text-gray-400">Create content and earn</div>
-//                 </div>
-//               </button>
-//             </div>
-//             <button onClick={togglePopup} className="w-full bg-purple-600 text-white py-2 rounded-lg mt-6 hover:bg-purple-700">
-//               Confirm
-//             </button>
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default Content;
-
-import  { useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { X,  } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -128,11 +15,15 @@ function Content() {
 
   const handleConfirm = () => {
     if (preference === 'user') {
-      navigate('/'); // Navigate to the home route
+      togglePopup(); // Navigate to the home route
     } else if (preference === 'creator') {
       navigate('/creator'); // Navigate to the creator route
     }
   };
+
+  useEffect(()=>{
+   togglePopup()
+  },[])
 
   return (
     <div className="text-[#fff] md:mt-6 py-6 sm:px-4 overflow-x-hidden">
@@ -149,7 +40,7 @@ function Content() {
           </p>
         </div>
         <div className="md:px-16">
-          <button onClick={togglePopup} className="py-2 px-3 md:py-3 font-semibold text-black rounded-xl text-[10px] md:text-[16px] bg-[#fff]">
+          <button  className="py-2 px-3 md:py-3 font-semibold text-black rounded-xl text-[10px] md:text-[16px] bg-[#fff]">
             Get started for free
           </button>
         </div>

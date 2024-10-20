@@ -40,7 +40,7 @@ const CreatorDashboard: React.FC = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto  p-6 mt-24">
+    <div className="max-w-6xl mx-auto  p-6 mt-16 md:mt-24">
       <div>
       <h1 className="md:text-3xl text-lg font-bold text-center mb-8">
         Creators: Your Next Big Break Awaits

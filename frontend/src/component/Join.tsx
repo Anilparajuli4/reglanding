@@ -3,7 +3,7 @@
 
 function Join() {
   return (
-  <div className="flex justify-between items-center max-w-7xl mx-auto mt:16 md:mt-24 px-4">
+  <div className="flex justify-between items-center max-w-7xl mx-auto mt-14 md:mt-24 px-4">
     <div className="space-y-5">
       <h1 className="md:text-3xl  font-bold">Join These Thrilled Users</h1>
       <p className="md:max-w-xl text-[8px] md:text-[16px] max-w-[10rem]">Don’t Miss Out—Help Us Build Something Special!  

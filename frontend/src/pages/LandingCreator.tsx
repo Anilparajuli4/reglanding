@@ -23,8 +23,9 @@ function LandingCreator() {
         <VIPCountdownComponent/>
         <CreatorDashboard/>
         <Review />
-        <Vision/>
         <Join/>
+        <Vision/>
+        
         <Footer/>
         </div>
     </div>
