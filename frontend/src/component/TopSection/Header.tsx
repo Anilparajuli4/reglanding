@@ -12,9 +12,9 @@ function Header() {
   return (
     <div className="">
         <div className="flex justify-between text-[#fff] md:p-5 py-5 ">
-        <div className="flex items-center mb-4 md:mb-0">
-          <img className='h-9' src='/images/logo.png' />
-          <h1 className="md:text-2xl text-2xl font-bold">Regaarder</h1>
+        <div className="flex items-center px-7 mb-4 md:mb-0 space-x-1">
+          <img className='h-7' src='/images/6.png' />
+          <h1 className="md:text-2xl text-xl font-bold">Regaarder</h1>
         </div>
         <div className="md:hidden ml-16">
           <button onClick={toggleMenu}>

@@ -4,7 +4,7 @@ import Header from "./Header"
 
 function TopSectionCreator() {
   return (
-    <div className="bg-[#000000]  ">
+    <div style={{backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.58) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #181718 0%, #2F2144 50%, #5C439F 100%)'}} className="">
         <Header/>
         <Content/>
     </div>
@@ -12,3 +12,6 @@ function TopSectionCreator() {
 }
 
 export default TopSectionCreator
+
+
+// bg-[#000000] 

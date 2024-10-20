@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 function Content() {
   return (
-    <div className="text-[#fff] md:mt-6  py-6 sm:px-4 overflow-x-hidden">
+    <div className="text-[#fff]  md:mt-6  py-6 sm:px-4 overflow-x-hidden">
         <div className="flex flex-col items-center md:items-start">
             <div className="p-6 px-4 md:px-16 flex   flex-col gap-y-4">
                 <p className="border md:text-[16px] text-[7px] text-center border-[#C6B0FF] py-2">Join our creator program and become the next big star with unmatched support.</p>
@@ -27,8 +27,14 @@ function Content() {
       </div>
     </div>
         </div>
+        
+       <div className=' relative'>
+        <div className="mt-20 px-16  absolute bottom-2 ">
+            <img src='/images/studio.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
+        </div>
         <div className="mt-20 px-16">
-            <img src='/images/frontuser.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
+            <img src='/images/creator.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
+        </div>
         </div>
     </div>
   )
