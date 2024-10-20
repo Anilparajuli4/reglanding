@@ -10,7 +10,7 @@ function Join() {
       Receive exclusive access to our beta version and play a key role in shaping the future of Regaarder.</p>
     </div>
     <div>
-      <button className="md:py-3 py-2 bg-[#DF68FD] md:px-3 px-2 text-[6px] text-white rounded-md">Apply for Beta Access Now</button>
+      <button className="md:py-3 py-2 bg-[#DF68FD] md:px-3 px-2 md:text-[16px] text-[6px] text-white rounded-md">Apply for Beta Access Now</button>
     </div>
   </div>
   )

@@ -2,6 +2,8 @@ import EmailSignup from "../component/EmailSignUp"
 import FeaturesSection from "../component/FeatureSection"
 import Footer from "../component/Footer"
 import Join from "../component/Join"
+import MissionComponent from "../component/MissonComponent"
+
 import PricingCard from "../component/PricingCard"
 import ReferralProgram from "../component/RefferalProgram"
 import Review from "../component/Review"
@@ -43,7 +45,7 @@ function LandingUser() {
  
      
       {/* <CreatorDashboard/> */}
-      {/* <MissionComponent/> */}
+       <MissionComponent />
       <Vision />
       <EmailSignup/>
       <Footer/>
