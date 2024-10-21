@@ -32,10 +32,10 @@ function Review() {
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
         </p>
         {/* grid gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 */}
-        <div className="md:mt-10 mt-5 flex md:overflow-hidden overflow-scroll md:grid gap-8 lg:grid-cols-3 md:grid-cols-2 ">
+        <div className="md:mt-10 mt-5 flex md:overflow-hidden shadow overflow-scroll md:grid gap-8 lg:grid-cols-3 md:grid-cols-2 ">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-6  bg-gray-50 shadow-lg rounded-lg">
-              <div className="flex w-72 py-2 items-center space-x-4">
+              <div className="flex w-72  py-3 items-center space-x-4">
                
                 <img
                   className="md:w-12 md:h-12 h-8 w-8 rounded-full"
