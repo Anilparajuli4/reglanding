@@ -46,12 +46,10 @@ function Content() {
         </div>
       </div>
 
-      <div className="mt-20 px-16">
-        <img src='/images/user.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img" />
+      <div className="mt-20">
+        <img src='/images/Frames.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img" />
       </div>
-      <div className="mt-20 px-16 relative">
-        <img src='/images/user2.png' className="bg-cover w-full filter" height={1000} width={1000} alt="img" />
-      </div>
+    
 
       {showPopup && (
         <div className="fixed inset-0 bg-[#000] bg-opacity-50 flex items-center justify-center z-50">

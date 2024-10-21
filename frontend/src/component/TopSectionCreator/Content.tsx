@@ -19,7 +19,7 @@ function Content() {
     </linearGradient>
   </defs>
 </svg>
-                <p className=" md:text-[16px] text-[7px] text-center border-[#C6B0FF] py-2">Join our creator program and become the next big star with unmatched support.</p></div> 
+                <p className=" md:text-[16px] text-[8px] text-center border-[#C6B0FF] py-2">Join our creator program and become the next big star with unmatched support.</p></div> 
                 <p className="md:text-7xl text-lg font-semibold text-center">Earn While You Dream – Let AI  <br/><span className="text-[#CAAFDE] inline-block md:mt-2">Do the Heavy Lifting</span></p>
                 <p className="text-[#666] text-[10px]  md:text-[16px] text-center">Create Fearlessly with Zero Editing Effort – Turn Your Ideas into Income!
                 .</p>
@@ -41,19 +41,13 @@ function Content() {
       </div>
     </div>
         </div>
+
+        <div className="md:mt-28  mt-16">
+            <img src='/images/Frame.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
+        </div>
+ 
         
-       <div className='flex flex-col md:mt-72 mt-24 relative items-center'>
-        <div className="mt-20 px-16  absolute left-12 bottom-0 ">
-            <img src='/images/studio.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
-        </div>
-       
-        <div className="absolute right-36 bottom-0">
-            <img src='/images/Editor.png' className="bg-cover w-full" height={1000} width={1000} alt="img"/>
-        </div>
-        <div className="flex items-center z-10">
-            <img src='/images/creator.png' className="bg-cover w-5xl" height={1000} width={1000} alt="img"/>
-        </div>
-        </div>
+      
     </div>
   )
 }
