@@ -30,7 +30,7 @@ const EmailSignup = () => {
           type="submit"
           className="w-full bg-white text-black md:p-3 p-2 text-[12px] md:text-[16px] rounded font-bold hover:bg-gray-100 transition-colors"
         >
-          Join Now
+          Subscribe
         </button>
       </form>
       <p className="mt-4 text-[6px] md:text-sm">
